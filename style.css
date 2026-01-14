@@ -1,0 +1,23 @@
+/* Font Awesome icon style */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+i {
+  font-size: 30px;
+  color: #333;
+  margin: 15px;
+  transition: 0.3s;
+}
+
+i:hover {
+  color: #007bff;
+  transform: scale(1.2);
+}
+
+.red {
+  color: red;
+}
