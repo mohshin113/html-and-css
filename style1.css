@@ -1,0 +1,60 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+.contuct{
+  width: 80%;
+  border: 2px solid #ddd;
+  margin: 20px auto;
+  padding: 5%;
+  text-align: center;
+}
+.contuct h2{
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+.contuct p{
+  color: rgb(68, 64, 64);
+}
+.contuct form{
+  margin-top: 25px;
+  text-align: left;
+}
+.child_form label{
+  display: block;
+  margin-top: 20px;
+  
+}
+
+.child_form input, .child_form textarea{
+  width: 94%;
+  border: 1px solid #ddd;
+  padding: 3%;
+  border-radius: 5px;
+
+}
+
+.child_form:last-child{
+  margin-bottom: 0;
+}
+
+.child_form input[ type=button]{
+  width: 200px;
+  background: blueviolet;
+  border: 1px solid rgb(112, 20, 197);
+  color: white;
+  cursor: pointer;
+
+}
+
+.child_form input[ type=button]:hover{
+  background: aqua;
+}
+
+.child_form select{
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 3%;
+  border-radius: 5px;
+}
