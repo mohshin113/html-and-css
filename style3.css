@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+}
+div{
+  width:400px ;
+  height: 400px;
+  margin: 0;
+}
+.main{
+  background: aqua;
+  position: relative;
+  top: 50px;
+  left: 50px;
+
+}
+.sec{
+  width:100px ;
+  height: 100px;
+  margin: 0;
+  position: fixed;
+  background: navy;
+  right: 20px;
+  top: 20px;
+}
+
+.childe{
+  width: 50px;
+  height: 50px;
+  background: purple;
+  position: absolute;
+  left: 50%;
+  margin-left: -25px;
+  top: 50%;
+  margin-top: -25px;
+}
+
+.stk{
+  width: 100%;
+  height: 100px;
+  background: yellowgreen;
+  position: sticky;
+  left: 0;
+  bottom: 0;
+}
