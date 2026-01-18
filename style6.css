@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  font-family:"Shurjo", "Siyam Rupali","Roboto","Arial","Helvetica", "Monospace";
+}
+
+/* header area */
+
+#header_area{
+  text-align: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+} 
+
+/* menu area*/
+#main_menu{
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+}
+#main_menu ul {
+  list-style: none;
+}
+#main_menu ul li{
+  display: inline;
+  padding:0 8px ;
+  font-weight:550;
+  font-size: 15px;
+}
+#main_menu ul li a{
+  text-decoration: none;
+  color: #000;
+}
+#main_menu ul li a:hover{
+  color: rgb(70, 173, 233);
+  transition: 0.3s;
+}
+
+/* content area*/
+#content{
+ width: 1140px;
+ margin: 10px auto;
+ padding: 0 0 10px;
+ border-bottom: 1px solid #ddd;
+ overflow: hidden;
+}
+.main_content{
+  width: 70%;
+  padding: 0px 2%;
+  float: left;
+  border-right: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+.child_content{
+  width: 27%;
+  padding: 5px 2%;
+  margin-right: 1%;
+  float: left;
+}
+.child_content:first-child{
+  width:59%;
+  float: left;
+  padding: 10px 2%;
+  height: 300px;
+}
+.child_content:first-child img{
+  display: block;
+  float: right;
+  padding-left: 10px 2%;
+}
+.child_content img{
+  max-width: 100%;
+  display: none;
+}
+.child_content h2{
+  font-size: 18px;
+  margin-bottom: 5px;
+
+}
+.child_content a {
+  color: black;
+  text-decoration: none;
+}
+/* sideber area*/
+
+.main_sidber{
+  width: 21%;
+  padding: 20px 2%;
+  float: right;
+}
+.child_sidber{
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.child_sidber:last-child{
+  border-bottom: none;
+
+}
+.child_sidber img{
+ max-width: 100%;
+}
+.child_sidber h3{
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.child_sidber a {
+  color: black;
+  text-decoration: none;
+}
+
+
+#footer_area{
+  text-align: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
